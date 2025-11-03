@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* aqui estamos a fazer a estilizacao da pagina alinhando os itens ao centro e tudo mais usando cada um dos estilos css que temos disponiveis, ex: o display flex nos ajuda...
+justify content e pra colocar todos os itens alinhados ao centro, e o align intens serve paara auxiliar isso */
+body{
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+    min-height: 100vh ;
+    background: url('/img/farmer-with-walking-stick-overlooks-sunrise-lush-fields_697880-19575.jpg');
+    background-size: cover;
+    background-position: center;
+}
+  .container{
+    width: 420px;
+    background-color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius:10px ;
+    color: black;
+    padding: 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+
+  .container h1{
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+  }
+
+  .input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgb(241, 238, 238);
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px ;
+
+  }
+   .input-box input::placeholder{
+    color: rgb(0, 0, 0);
+   }
+   .input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+   } 
+
+ 
+.input-box  i:hover{
+    cursor: pointer;
+}
+
+
+   .remember{
+    display: flex;
+    justify-content: space-evenly;
+    margin: -15px 0 15px;
+   }  
+    .remember label input{
+        accent-color: white ;
+        margin-right:5px ;
+    }
+
+    .remember a{
+        text-decoration: none;
+        color:black;
+    }
+    .remember a:hover{
+        text-decoration: underline;
+    }
+.botao{
+    width: 100%;
+    height: 50px;
+background-color: white;
+cursor: pointer;
+border-radius:40px ;
+border: none;
+box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+color:  rgb(107, 106, 106);
+
+}
+
+.botao:hover{
+    background: rgb(247, 244, 244);
+transition: 0.5s;
+font-size: medium;
+}
+   .registrer{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+   }
+   .registrer a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+
+   }
+    .registrer a:hover{
+        text-decoration: underline;
+        
+    }

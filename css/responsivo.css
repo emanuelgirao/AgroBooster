@@ -1,0 +1,33 @@
+@media screen and (max-width:1005px) {
+    .navbar{
+        position: relative;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        margin: 0;
+    text-align: left;
+        
+    }
+    .header{
+        padding: 50px;
+    }
+    .readline{
+        flex:100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .readline{
+        text-align: center;
+    }
+    .img-red{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+   .box{
+    width: 100%;
+
+   }
+}
