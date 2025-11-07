@@ -177,7 +177,8 @@ padding: 75px 75px 75px 75px;
     
 
 }
-p.tagLine{
+
+.tagLine{
     font-size: 2rem;
     color: #147500;
     margin-bottom: 8px;
@@ -246,7 +247,8 @@ div.background{
     border-top-right-radius: 90px;
 }
 .icon{
-    height: 300px;
+    height: 200px;
+    margin-bottom: 50px;
 }
 
 
@@ -262,7 +264,7 @@ div.imgN{
 
 
 
-#fresh{
+.about{
       padding: var(--section-padding);
     text-align: center;
     display: flex
@@ -384,7 +386,7 @@ display: none;
 }
 .show {
 display: block;
-
+    
 }                                                                           
 
 
@@ -425,3 +427,146 @@ justify-content: center;
 justify-items: center;
 }
 
+.value{
+       font-size: 4rem;
+    color: #00b679;
+    margin-bottom: 16px;
+    line-height: 1; 
+}
+
+.label{
+       font-size: 20px;
+    color: #30525c;
+    line-height: 1.7; 
+}
+
+
+#sectionList div{
+ 
+    display: block;
+    margin: 0;
+      padding-left: 75px;
+      padding-bottom: 20px;
+       padding-right: 75px;
+    padding-top: 20px;
+  
+}
+#sectionList ul{
+        display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    max-width: 1480px;
+    flex-wrap: wrap;
+}
+ .list{
+    list-style-type: none;
+        width: 100%;
+    flex: 1;
+    
+}
+.conection{
+    padding: var(--section-padding);
+height: 100%;
+
+    background-color: #ebf2f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.direct{
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px auto;
+    max-width: 1480px;
+    width: 100%;
+
+}
+div.imgN2{
+  background-image: url('../img/back_2_2025_17335_.jpeg');
+    background-size: cover;
+    height: auto;
+    width: 100vw;
+    margin-top: -1px;
+    padding-bottom: 1px;
+}
+
+.about-future{
+padding: var(--section-padding);
+background-image: url('../img/mulher-future.png');
+    background-size: auto 150%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: #05542c;
+   width: 100%;
+   height: 300px;
+}
+#link-future {
+     border-radius: 60px;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-flex;
+    color: #fff;
+    font-weight: 700;
+    align-items: center;
+    margin-left: 20px;
+    padding: 8px 24px;
+    background-color: #054b54;
+    justify-content: center;
+}
+#link-future:hover {
+    background-color: #a4a5a52a;
+    font-size: medium;
+    transition: 0.5s;
+   
+}
+
+#ulList{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 32px;
+}
+
+.listAboutUs{
+    background-image: url('../img/equipepng.png');
+        flex: 1;
+    width: 100%;
+    aspect-ratio: 5 / 4;
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.gf{
+position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+.title{
+        position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.contentTwo{
+        display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+}

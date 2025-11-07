@@ -1,3 +1,6 @@
+  
+  
+  
   const card = document.getElementById("card");
    const cardContent = document.getElementById("cardContent");
 
